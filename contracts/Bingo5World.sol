@@ -158,7 +158,7 @@ contract Bingo5 is AccessControl{
     function _getMagicNumber() internal view returns (uint32){
         uint32 finnal = 0;
         for(uint i = 1; i <= 8; i++){
-            bytes32 bhash = block.blockhash(block.number - i);
+            bytes32 bhash = sha3(now + i);
             uint32 temp   = (uint32(bhash) % 5 + 1) << ((i - 1) * 3);
             finnal = finnal | temp;
         }
