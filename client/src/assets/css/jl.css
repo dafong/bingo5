@@ -1,0 +1,433 @@
+
+/**主体**/
+.body-contant {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.box {
+    overflow: hidden;
+    padding: 16px;
+    background-color: rgba(0, 0, 0, .1);
+    margin: 0 auto;
+}
+
+/**卡牌属性**/
+.jl-search {
+    min-height: 40px;
+    height: auto;
+    margin: 0 auto;
+    color: #f1c669;
+    line-height: 36px;
+    position: relative;
+
+}
+
+.jl-search .count {
+    float: left;
+    position: relative;
+    margin-right: 105px;
+    margin-top: 30px;
+}
+
+.count .jl-count {
+    float: left;
+    width: 200px;
+    height: 36px;
+    border: 2px solid #ffc546;
+    border-radius: 100px;
+    padding-left: 20px;
+}
+
+.count .jl-count1 {
+    position: absolute;
+    top: 0;
+    right: -1px;
+    width: 42px;
+    height: 42px;
+    background-image: url("../image/jl-count1.png");
+    background-size: 100% 100%;
+}
+
+.jl-sx {
+    float: left;
+    text-align: center;
+    margin-right: 35px;
+}
+
+.jl-sx .sx-unit {
+    float: left;
+    margin-right: 20px;
+    margin-top: 30px;
+    position: relative;
+    display: inline-block;
+}
+
+.sx-unit .sx-unit1 {
+    cursor: pointer;
+    width: 126px;
+    height: 36px;
+    border: 2px solid #ca4722;
+    border-radius: 100px;
+}
+
+.sx-unit1-content {
+    position: absolute;
+    display: none;
+    z-index: 10001;
+    padding-top: 6px;
+
+}
+
+.sx-unit1-content1 {
+    background-color: #30241f;
+    width: 126px;
+    border: 2px solid #ca4722;
+    border-radius: 8px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.sx-unit1-content a {
+    font-size: 18px;
+    width: 85%;
+    margin: 0 auto;
+    text-decoration: none;
+    display: block;
+    color: #f1c669;
+    top: 38px;
+    border-bottom: 1px solid #000000;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, .1);
+    height: 50px;
+    line-height: 50px;
+
+}
+
+.sx-unit1-content a:hover {
+    background: linear-gradient(to right, #30241f, #544139, #30241f);
+}
+
+.sx-unit:hover .sx-unit1-content {
+    display: block;
+}
+
+.jl-sx .sx-unit-left {
+    float: left;
+    width: 53px;
+    height: 100%;
+    border-radius: 100px 0 0 100px;
+    background: #352722;
+}
+
+.jl-sx .sx-unit-right {
+    float: right;
+    width: 73px;
+    height: 100%;
+    background-image: url("../image/search-btn-sj.png");
+    background-size: 12px 11px;
+    background-position: 50px center;
+    background-repeat: no-repeat;
+    text-indent: 12px;
+    text-align: left;
+}
+
+.jl-sx .sx-px {
+    float: left;
+    width: 40px;
+    height: 40px;
+    margin-left: -10px;
+    background-image: url("../image/paixu.png");
+    background-size: 100% 100%;
+    margin-top: 30px;
+}
+
+.jl-search .jlsearch {
+    float: left;
+    height: 36px;
+    border: 2px solid #ca4722;
+    border-radius: 100px;
+    margin-top: 30px;
+}
+
+.jl-search .jlsearch-left {
+    float: left;
+    width: 198px;
+    height: 100px;
+    opacity: .3;
+    text-align: left;
+    text-indent: 12px;
+}
+
+.jl-search .jlsearch-right {
+    float: right;
+    width: 48px;
+    height: 100%;
+    border-radius: 0 100px 100px 0;
+    background: #ca4722;
+    background-image: url("../image/search.png");
+    background-size: 27px 27px;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+/**大卡牌**/
+.cell {
+    float: left;
+    position: relative;
+    background: #f5d9a7;
+    width: 250px;
+    height: 380px;
+    margin: 16px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 3px 3px 2px rgba(0,0,0,.4);
+}
+
+.cell-kong {
+    background-color: transparent;
+    background-image: url("../image/cell-kong.png");
+    background-size: 100% 100%;
+    box-shadow: none;
+}
+
+.cell-title {
+    position: relative;
+    z-index: 100;
+    height: 32px;
+    line-height: 35px;
+    color: #723b22;
+    font-size: 18px;
+    border-radius: 10px 10px 0 0;
+}
+
+.cell-title .country {
+    margin: -3px 0 -13px 10px;
+    width: 180px;
+    height: 56px;
+    text-align: left;
+    text-indent: 55px;
+}
+
+.cell-title .country img {
+    position: absolute;
+    left: 10px;
+}
+
+.cell-title .level {
+    position: absolute;
+    top: 0;
+    right: 10px;
+    text-align: right;
+    font-size: 16px;
+}
+
+.cell-img {
+    position: relative;
+    z-index: 0;
+    width: 240px;
+    height: 205px;
+    margin: 0 auto;
+    background-image: url("../image/card-img-bg.png");
+    background-size: 100% 100%;
+}
+
+.cell-img img {
+    height: 100%;
+    width: auto;
+}
+
+.cell-img .cell-count {
+    position: absolute;
+    bottom: 8px;
+    right: 8px;
+    text-align: center;
+}
+
+.cell-img .cell-count div {
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    background-color: #2b825c;
+    font-size: 14px;
+    line-height: 20px;
+    color: #fffcf3;
+    margin-top: 4px;
+
+}
+
+.cell-img .star {
+    position: absolute;
+    top: 20px;
+    left: 19px;
+    width: 19px;
+}
+
+.cell-img .star img {
+    width: 19px;
+    height: auto;
+}
+
+.cell-jd {
+    position: relative;
+    margin: 10px 28px;
+}
+
+.jl-jd, .jl-jd-2, .jl-jd-3, .jl-jd-4 {
+    height: 20px;
+    clear: both;
+    margin: 3px;
+}
+
+.jdicon img {
+    float: left;
+    width: 16px;
+    height: auto;
+    margin: 2px;
+}
+
+.jdt {
+    float: left;
+    width: 160px;
+    border-radius: 20px;
+    height: 10px;
+    background-color: #c1aa82;
+    margin: 5px 0 5px 3px;
+}
+
+.jdt div {
+    border-radius: 20px;
+    height: 100%;
+}
+
+.jdnow, .jdnow2, .jdnow3, .jdnow4 {
+    border-radius: 20px;
+    background-color: #0f8f60;
+}
+
+.jdman {
+    width: 70%;
+    background-color: #8bbea2;
+}
+
+.jdman2 {
+    width: 80%;
+    background-color: #e3986e;
+}
+
+.jdman3 {
+    width: 60%;
+    background-color: #97acc3;
+}
+
+.jdman4 {
+    width: 90%;
+    background-color: #a688ae;
+}
+
+.jdnow {
+    width: 20%;
+}
+
+.jdnow2 {
+    width: 40%;
+    background-color: #dc5c0f;
+}
+
+.jdnow3 {
+    width: 50%;
+    background-color: #215c9f;
+}
+
+.jdnow4 {
+    width: 30%;
+    background-color: #5e246d;
+}
+
+.cell-footer {
+    position: absolute;
+    bottom: 0;
+    width: 230px;
+    left: 10px;
+    background-color: #2b825c;
+    height: 35px;
+    line-height: 36px;
+    border-radius: 10px 10px 0 0;
+    color: #fffcf3;
+    font-size: 16px;
+}
+
+.cell-footer .left-img {
+    float: left;
+    width: 20px;
+    height: 20px;
+    margin: 8px 7px 7px 10px;
+}
+
+.cell-footer p {
+    float: left;
+}
+
+.cell-footer .right-img {
+    float: right;
+    height: 20px;
+    width: auto;
+    margin: 8px 15px 7px 0;
+}
+
+.cell-footer .right-img1 {
+    float: right;
+    width: 84px;
+    height: 28px;
+    margin: 5px 15px 0 0;
+}
+
+/*分页*/
+.fenye {
+    margin: 0 auto;
+    text-align: center;
+    margin: 20px 0 40px;
+}
+
+ul.pagination {
+    display: inline-block;
+    padding: 0;
+    margin: 0 auto;
+    max-width: 530px;
+    padding: 0 10px;
+    height: 40px;
+    background-color: #6b5139;
+    border-radius: 40px;
+
+}
+
+ul.pagination .left-arrow {
+    width: 15px;
+    height: 20px;
+    margin: 10px 20px;
+}
+
+ul.pagination li {
+    display: inline;
+}
+
+ul.pagination li a {
+    color: #512b19;
+    float: left;
+    padding: 0 8px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 22px;
+    line-height: 40px;
+}
+
+ul.pagination li a.active {
+    color: #f5d9a7;
+}
+
+ul.pagination li a:hover:not(.active) {
+    color: #f5d9a7;
+
+}
+

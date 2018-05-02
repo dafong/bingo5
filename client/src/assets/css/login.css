@@ -1,0 +1,94 @@
+.login-body{
+    width:auto;
+    overflow: hidden;
+    padding-bottom:30px;
+}
+.login{
+    position:relative;
+    width:1433px;
+    height:875px;
+    background-image: url("../image/login.png");
+    background-size: 100% 100%;
+    font-weight: lighter;
+    margin-top:-50px;
+    left:50%;
+    margin-left:-717px;
+}
+.login-div{
+    position:absolute;
+    top:350px;
+    left:342px;
+    width:460px;
+    color:#ffc546;
+    font-size:24px;
+}
+.login-div-unit{
+    margin-bottom:28px;
+}
+.login-div-unit p{
+    height:30px;
+    margin:10px 0;
+    line-height: 25px;
+    display: block;
+}
+.login-div-unit-kuang{
+    width:436px;
+    height:42px;
+    border:1px solid #e43c3c;
+    border-radius:20px;
+    text-indent: 20px;
+    color:#ffc546;
+    font-size:22px;
+    line-height:42px;
+    background-color: #3b0000;
+}
+.login-div-unit-kuang span{
+    color:rgba(255,197,70,.3);
+}
+.login-btn{
+    position: absolute;
+    bottom: 85px;
+    width:210px;
+    height:70px;
+    left:50%;
+    margin-left:-105px;
+    background:linear-gradient(to bottom,#fcdd56,#f2fc96);
+    text-align: center;
+    border-radius:70px;
+    line-height:70px;
+    font-size:30px;
+    box-shadow: 0 0 40px #420202;
+}
+a.login-btn{
+    color:#723b22;
+    font-weight: normal;
+}
+a:hover.login-btn{
+    background:linear-gradient(to bottom,#f2fc96,#fcdd56);
+}
+.login-ps{
+    position:absolute;
+    top:563px;
+    left:887px;
+    width:240px;
+    height:120px;
+    color:#e43c3c;
+    font-size:18px;
+    line-height: 36px;
+}
+/*适配*/
+@media screen and (min-width: 1281px) {
+    .login-body{
+        zoom:.9
+    }
+}
+@media screen and (max-width: 1280px) {
+    .login-body{
+        zoom:.8
+    }
+}
+@media screen and (max-width: 840px) {
+    .login-body{
+        zoom:.7
+    }
+}

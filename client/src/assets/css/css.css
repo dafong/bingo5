@@ -1,0 +1,272 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: url(../image/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    font-family: "Microsoft YaHei";
+    font-weight: 400;
+}
+
+/**导航**/
+.menu {
+    position: fixed;
+    z-index: 10008;
+    width: 100%;
+    height: 80px;
+    background-color: #30241f;
+    line-height: 80px;
+    /**background-image: url("../image/logo-bg.png");
+    background-size: 300px 80px;
+    background-repeat: no-repeat;**/
+    margin-bottom: 10px;
+    background-image: url("../image/menu-bg.png"),url("../image/logo-bg2.png");
+    background-repeat: no-repeat;
+    background-size: cover,700px 80px;
+}
+
+.menu .logo {
+    float: left;
+    position: relative;
+    width: 169px;
+    height: 88px;
+    background-image: url("../image/logo.png");
+    background-size: 100% 100%;
+    z-index: 100;
+    margin-right: 20px;
+}
+
+.menu .logo .logo-guang {
+    position: absolute;
+    width: 120%;
+    height: 100%;
+    right: 10%;
+}
+
+.menu .menu-more {
+    float: right;
+    width: 32px;
+    height: 28px;
+    margin-top: 25px;
+    background-image: url("../image/meun-more.png");
+    background-size: 100% 100%;
+}
+
+
+.menu .menu-content {
+    margin: 0 auto;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0 auto;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.menu li {
+    display: inline;
+    cursor: pointer;
+    margin: auto 15px;
+}
+
+.menu a {
+    color: #a5886a;
+    text-decoration: none;
+}
+
+.menu .current {
+    position: relative;
+}
+
+.menu .current a {
+    color: #7a4831;
+    padding: 5px 20px;
+    background: #ffc546;
+    border-radius: 20px;
+}
+
+.menu .current .sanjiao {
+    position: absolute;
+    width: 21px;
+    height: 11px;
+    margin-left: 50%;
+    left: -10px;
+    bottom: -25px;
+
+}
+
+.menu .menu-line {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    height: 7px;
+    background-color: #ffc546;
+    z-index: 0;
+}
+.menu-zhanwei{
+    height:80px;
+}
+/*页面底部*/
+.footer {
+    background-color: #271e1a;
+    background-image: url("../image/footer-line.png");
+    background-repeat: no-repeat;
+    background-position: center 0;
+    background-size: 70% 1px;
+    overflow: hidden;
+    padding:20px 0 40px 50px;
+}
+
+
+.footer .column {
+    float: left;
+    margin: 20px 50px 0;
+    font-size: 16px;
+    color: #a5886a;
+}
+
+.footer .column a {
+    height: 36px;
+    line-height: 36px;
+    clear: both;
+    display: block;
+    text-decoration: none;
+    color: #826547;
+}
+
+.footer .column a.active {
+    color: #f5d9a7;
+}
+/*icon*/
+.why{
+    float:left;
+    margin-left:16px;
+    width:32px;
+    height:32px;
+    background-image: url("../image/why.png");
+    background-size: 100% 100%;
+    box-shadow:1px 1px 4px #2b201b;
+    border-radius: 100px;
+}
+.close{
+    position: absolute;
+    width:70px;
+    height:70px;
+    background-image: url("../image/close.png");
+    background-size: 100% 100%;
+    top:-20px;
+    right:-20px;
+    z-index: 100;
+}
+
+/*适配*/
+@media screen and (min-width: 1201px) {
+    .box {
+        width: 1128px;
+    }
+
+    .menu .menu-content {
+        width: 1128px;
+    }
+
+    .jl-search {
+        width: 1096px;
+    }
+
+    .footer-content {
+        width: 1080px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .box {
+        width: 846px;
+    }
+
+    .menu .menu-content {
+        width: 846px;
+    }
+
+    .jl-search {
+        width: 814px;
+    }
+
+    .footer-content {
+        width: 814px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .box {
+        width: 564px;
+    }
+
+    .menu .menu-content {
+        width: 564px;
+    }
+
+    .menu .menu-content .logo {
+        width: 100px;
+        height: 70px;
+    }
+
+    .menu .menu-content ul {
+        display: none;
+    }
+
+    .jl-search {
+        width: 532px;
+    }
+
+    .footer-content {
+        width: 532px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .box {
+        width: 282px;
+    }
+
+    .menu .menu-content {
+        width: 282px;
+    }
+
+    .menu .menu-content .logo {
+        width: 100px;
+        height: 70px;
+    }
+
+    .menu .menu-content ul {
+        display: none;
+    }
+
+    .jl-search {
+        width: 250px;
+    }
+
+    .footer-content {
+        width: 532px;
+    }
+}
+
+/*变量*/
+:root{
+    --brown-color:#723b22;
+    --yellow-color:#ffc546;
+    --yellow-color1:#e1e1e1;
+    --background-yellow:#f5d9a7;
+    --yellow-line:#ffc64d;
+    --border-red:#e43c3c;
+}
+a{
+    text-decoration: none;
+    cursor:pointer;
+}
+a:hover{
+    text-decoration: none;
+}

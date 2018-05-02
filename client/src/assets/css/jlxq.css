@@ -1,0 +1,490 @@
+.jlxq-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .6);
+}
+
+.jlxq-content {
+    position: absolute;
+    width: 1100px;
+    height: 640px;
+    left: 50%;
+    top: 50%;
+    margin-left: -550px;
+    margin-top: -320px;
+}
+
+.jlxq-content-card {
+    float: left;
+    position: relative;
+    width: 470px;
+    height: 640px;
+    border-radius: 10px;
+    background: linear-gradient(to bottom, #ddbe89, #faf2c9);
+}
+
+.jlxq-card-content {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    bottom: 15px;
+    right: 15px;
+    background-image: url("../image/jlxq/jlxqcard-bg.png");
+    background-size: 100% 100%;
+}
+
+.jlxq-card-flag {
+    position: absolute;
+    top: -5px;
+    left: 20px;
+    width: 71px;
+    height: 67px;
+    background-image: url("../image/card-country-shu.png");
+    background-size: 100% 100%;
+    z-index: 10;
+}
+
+.jlxq-card-name {
+    position: absolute;
+    top: 8px;
+    left: 88px;
+    padding-left: 20px;
+    padding-right: 25px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #fff7d9;
+    border-radius: 0 100px 100px 0;
+    font-size: 26px;
+    background: rgba(0, 0, 0, .5);
+
+}
+
+.jlxq-card-level {
+    position: absolute;
+    top: 18px;
+    right: 21px;
+    font-size: 25px;
+    color: #f7e5ad;
+}
+
+.jlxq-card-star {
+    position: absolute;
+    padding-top: 75px;
+    padding-left: 14px;
+    width: 54px;
+    height: 185px;
+    left: 20px;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, .5), rgba(0, 0, 0, 0));
+}
+
+.jlxq-card-star-unit {
+    width: 30px;
+    height: 30px;
+    background-image: url("../image/star.png");
+    background-size: 100% 100%;
+}
+
+.jlxq-card-man {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-image: url("../image/card-pangtong.png");
+    background-size: 449px 448px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.jlxq-card-pf {
+    position: absolute;
+    left: 13px;
+    bottom: 13px;
+    width: 131px;
+    height: 108px;
+    background-image: url("../image/jlxq/jlxq-pf.png");
+    background-size: 100% 100%;
+}
+
+.jlxq-card-pf p {
+    margin-top: 40px;
+    color: #350000;
+    font-size: 30px;
+    transform: rotate(-15deg);
+    text-align: center;
+}
+
+.jlxq-card-rigtbottom {
+    position: absolute;
+    width: 200px;
+    height: 70px;
+    background: rgba(0, 0, 0, .5);
+    border-radius: 100px 0 0 100px;
+    bottom: 15px;
+    right: 0;
+}
+
+.jlxq-card-rigtbottom-1, .jlxq-card-rigtbottom-2 {
+    position: absolute;
+    top: 8px;
+    right: 5px;
+    width: 71px;
+    height: 54px;
+    background-image: url("../image/card-rightbottom2.png");
+    background-size: 26px 32px;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+.jlxq-card-rigtbottom p {
+    position: absolute;
+    bottom: 0;
+    color: #fff;
+    font-size: 13px;
+    text-align: center;
+}
+
+.jlxq-card-rigtbottom-2 {
+    left: 30px;
+    width: 71px;
+    height: 54px;
+    background-image: url("../image/card-rightbottom1.png");
+    background-size: 52px 32px;
+}
+
+.jlxq-card-count {
+    position: absolute;
+    right: 15px;
+    bottom: 108px;
+    width: 38px;
+    height: 173px;
+    text-align: center;
+}
+
+.jlxq-card-count div {
+    width: 38px;
+    height: 38px;
+    border-radius: 40px;
+    background-color: #2b825c;
+    font-size: 25px;
+    line-height: 38px;
+    color: #fffcf3;
+    margin-top: 6px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .8);
+}
+
+.jlxq-content-xq {
+    position: absolute;
+    right: 0;
+    width: 610px;
+    height: 630px;
+    padding: 5px;
+    background-color: rgba(171, 139, 111, .7);
+    border-radius: 20px;
+
+}
+
+.jlxq-xq-content {
+    background-color: #563e35;
+    padding: 20px;
+    width: 570px;
+    height: 590px;
+    border-radius: 20px;
+}
+
+/*属性*/
+.jlxq-xq-shuxing {
+    float: left;
+    width: 360px;
+    font-size: 17px;
+    color: #7a4930;
+}
+
+.jlxq-xq-title {
+    float: left;
+    text-align: center;
+    width: 110px;
+    height: 32px;
+    line-height: 32px;
+    color: #7f371c;
+    font-size: 22px;
+    border-radius: 100px;
+    background-color: #ffc546;
+    margin-bottom: 10px;
+}
+
+.jlxq-xq-shuxingcontent {
+    clear: both;
+    float: left;
+    width: 360px;
+    height: 230px;
+    background: linear-gradient(to bottom, #ddbe89, #faf2c9);
+    border-radius: 10px;
+}
+
+.jlxq-xq-shuxing-div {
+    margin: 13px 19px 0 11px;
+    clear: both;
+    overflow: hidden;
+}
+
+.jlxq-xq-shuxing-icon {
+    float: left;
+    width: 40px;
+    height: 40px;
+}
+
+.jlxq-xq-shuxing-jd {
+    float: right;
+    width: 280px;
+    color: #7a4930;
+    line-height: 22px;
+}
+
+.jlxq-xq-shuxing-jd-left p {
+    float: left;
+}
+
+.jlxq-xq-shuxing-jd span {
+    color: #0f8f60;
+}
+
+.jlxq-xq-shuxing-jd-right p {
+    float: right;
+}
+
+.jlxq-xq-shuxing-jd-right span {
+    color: #cc0808;
+}
+
+.jlxq-xq-shuxing-jd1 {
+    float: left;
+    width: 100%;
+    height: 12px;
+    border-radius: 100px;
+    background-color: #372924;
+    margin-top: 4px;
+}
+
+.jlxq-xq-shuxing-jd1 div {
+    height: 10px;
+    margin: 1px;
+    border-radius: 100px 0 0 100px;
+}
+
+/*战法*/
+.jlxq-xq-zhanfa {
+    float: right;
+    width: 200px;
+    font-size: 17px;
+    color: #7a4930;
+}
+
+.jlxq-xq-zhanfa-content {
+    float: left;
+    clear: both;
+    width: 176px;
+    height: 206px;
+    background: linear-gradient(to bottom, #ddbe89, #faf2c9);
+    border-radius: 10px;
+    padding: 12px;
+}
+
+.jlxq-xq-zhanfa-iconborder {
+    float: left;
+    width: 66px;
+    height: 66px;
+    background-image: url("../image/jlxq/zhanfa-icon-border.png");
+    background-size: 100% 100%;
+}
+
+.jlxq-xq-zhanfa-icon {
+    margin: 3px;
+    background-image: url("../image/jlxq/zhanfa-icon.png");
+    background-size: 100px 100px;
+    width: 60px;
+    height: 60px;
+    border-radius: 100px;
+}
+
+.jlxq-xq-zhanfa-name {
+    float: left;
+    font-size: 22px;
+    width: 100px;
+    height: 66px;
+    line-height: 33px;
+    margin-left: 10px;
+}
+
+.jlxq-xq-zhanfa-intro {
+    float: left;
+    clear: both;
+    margin-top:10px;
+    width: 156px;
+    height: 110px;
+    padding:10px;
+    background-color: #372924;
+    border-radius:8px;
+    font-size:17px;
+    color:#b18f69;
+    line-height: 26px;
+}
+/*羁绊*/
+.jlxq-xq-jiban{
+    float:left;
+    clear: both;
+    width:100%;
+    height:200px;
+    background-color: #372924;
+    margin-top:36px;
+    border-radius:8px;
+}
+.jlxq-xq-jiban .jlxq-xq-title{
+    position: absolute;
+    margin-top:-16px;
+    clear:both;
+}
+.jlxq-xq-jiban-card{
+    float:left;
+    position: relative;
+    margin:28px 0 0 20px;
+    width:110px;
+    height:155px;
+    background: linear-gradient(to bottom, #ddbe89, #faf2c9);
+    border-radius:8px;
+}
+.jlxq-xq-jiban-card-name{
+    text-align: center;
+    width:100%;
+    height:20px;
+    line-height:20px;
+    color:#563e35;
+    font-size:16px;
+}
+.jlxq-xq-jiban-card-man{
+    position:absolute;
+    top:20px;
+    left:5px;
+    width:100px;
+    height:100px;
+    background-image: url("../image/card-img-bg.png");
+    background-size: 100% 100%;
+    overflow: hidden;
+    border-radius:8px;
+}
+.jlxq-xq-jiban-card-man img{
+    position: absolute;
+    width:160px;
+    height:auto;
+    left:50%;
+    margin-left:-80px;
+}
+.jlxq-xq-jiban-card-bottom{
+    position: absolute;
+    bottom:5px;
+    width:80px;
+    height:25px;
+    left:15px;
+    background-color: #674c41;
+    border-radius:100px;
+}
+.jlxq-xq-jiban-card-bottom-icon,.jlxq-xq-jiban-card-bottom-icon img{
+    float:left;
+    width:25px;
+    height:25px;
+}
+.jlxq-xq-jiban-card-bottom-p{
+    float:left;
+    margin-left:5px;
+    font-size:14px;
+    line-height:25px;
+    color: #fffcdf;
+}
+/*按钮*/
+a .jlxq-xq-btn-sale{
+    position:absolute;
+    left:75px;
+    bottom:20px;
+    width:204px;
+    height:64px;
+    background-image: url("../image/jlxq/btn-sale.png");
+    background-size: 100% 100%;
+}
+a:hover .jlxq-xq-btn-sale{
+    background-image: url("../image/jlxq/btn-sale-down.png");
+}
+a .jlxq-xq-btn-xunlian{
+    position:absolute;
+    right:75px;
+    bottom:20px;
+    width:204px;
+    height:64px;
+    background-image: url("../image/jlxq/btn-xunlian.png");
+    background-size: 100% 100%;
+}
+a:hover .jlxq-xq-btn-xunlian{
+    background-image: url("../image/jlxq/btn-xunlian-down.png");
+
+}
+/*按钮-挂售中*/
+.jlxq-xq-saleing{
+    position:absolute;
+    bottom:25px;
+    left:22px;
+    width:160px;
+    height:53px;
+    background-image: url("../image/jlxq/saleing.png");
+    background-size: 100% 100%;
+}
+.jlxq-xq-saleing-p{
+    width:230px;
+    height:40px;
+    position:absolute;
+    bottom:31px;
+    left:193px;
+    color:#fff;
+    background-color: #372924;
+    border-radius: 100px;
+    font-size:18px;
+    text-indent: 20px;
+    line-height: 38px;
+}
+.jlxq-xq-saleing-p .why{
+    position: absolute;
+    right:2px;
+    top:2px;
+    width:36px;
+    height:36px;
+}
+a .jlxq-xq-saleing-btn{
+    position: absolute;
+    width:144px;
+    height: 44px;
+    right:25px;
+    bottom:31px;
+    background-image: url("../image/jlxq/no-sale.png");
+    background-size: 100% 100%;
+}
+a:hover .jlxq-xq-saleing-btn{
+    background-image: url("../image/jlxq/no-sale-down.png");
+}
+/*适配*/
+@media screen and (min-width: 1201px){
+    .jlxq-content{
+        transform:scale(1,1)
+    }
+}
+@media screen and (max-width: 1200px){
+    .jlxq-content{
+        transform:scale(.8,.8)
+    }
+}
+@media screen and (max-width: 900px){
+    .jlxq-content{
+        transform:scale(.7,.7)
+    }
+}

@@ -1,0 +1,60 @@
+{
+	"common": {
+		"intro": "介绍",
+		"login": "登录",
+		"my_general": "我的将领",
+		"trade": "交易",
+		"explore": "探索",
+		"battle": "战斗",
+		"team": "编队",
+		"record": "记录",
+
+		"all": "全部",
+		"star": "星级",
+		"star_3": "三星",
+		"star_4": "四星",
+		"star_5": "五星",
+
+		"nation": "国家",
+		"nation_shu": "蜀国",
+		"nation_wei": "魏国",
+		"nation_wu": "吴国",
+		"nation_qun": "群雄",
+
+		"sort": "排序",
+		"lv": "等级",
+		"price": "价格",
+		"hp": "生命",
+		"atk": "武力",
+		"lead": "统率",
+		"wit": "智谋",
+
+		"has_gen": "拥有将领：",
+		"ming": "名",
+		"search_card": "搜索需要的卡牌",
+
+		"sold": "已售：",
+		"buy": "购买",
+
+		"sure": "确定",
+		"cancel": "取消",
+
+		"exchange": "兑换",
+		"get": "领取"
+	},
+	"login": {
+		"wallet": "钱包地址：",
+		"wallet_tip": "请输入您的钱包地址",
+		"set_name": "设定昵称：",
+		"set_name_tip": "请设定您的昵称",
+		"email": "邮箱地址：",
+		"email_tip": "请输入您的邮箱地址",
+		"import_title": "【重要】",
+		"import_msg": "使用真实邮箱，有助于您在\n第一时间收到最新资讯~",
+		"login_to_buy": "登录后购买",
+		"login_to_get": "登录后领取",
+		"go_to_login": "去登录",
+		"login_to_invite": "登录后才可生成邀请链接"
+	}
+
+}
